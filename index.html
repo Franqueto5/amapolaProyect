@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestor de Archivos y Puertos Serie</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Gestor de Archivos y Puertos Serie</h1>
+  </header>
+  <main>
+    <section id="files-section">
+      <h2>Archivos</h2>
+      <div id="files-container"></div>
+    </section>
+    <section id="serial-section">
+      <h2>Puertos Serie</h2>
+      <div class="controls">
+        <button id="scan-ports">Escanear Puertos</button>
+        <select id="ports-list"></select>
+      </div>
+      <div id="port-info"></div>
+      <input type="file" id="file-input" />
+      <button id="send-file" disabled>Enviar al Puerto</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
