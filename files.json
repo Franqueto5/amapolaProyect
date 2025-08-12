@@ -1,0 +1,5 @@
+[
+  { "name": "Bootloader AVR", "category": "Bootloader", "path": "files/bootloader.hex" },
+  { "name": "Firmware Sensor", "category": "Firmware", "path": "files/sensor.bin" },
+  { "name": "Script de Configuración", "category": "Scripts", "path": "files/setup.txt" }
+]
